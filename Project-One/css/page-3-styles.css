@@ -1,0 +1,117 @@
+
+.post_title,
+.widget-title,
+.logo,
+.top_bar,
+.slogan,
+.author,
+.post_date
+{
+	font-family: 'Playfair Display', serif;
+}
+
+.post_date,
+.post_snippet,
+.meta
+{
+    font-family: 'IBM Plex Serif', serif;
+    color: grey;
+    text-align: left;
+
+}
+
+.post_title_small
+{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 18px;
+}
+
+.top_bar 
+{
+	border-bottom: 1px solid;
+	min-height: 38px;
+	line-height: 38px;
+	overflow: hidden;
+}
+
+.header 
+{
+	border-bottom: 1px solid;
+	padding: 30px 0;
+	text-align: center;
+}
+
+.header .logo 
+{
+	font-size: 78px;
+	letter-spacing: 3px;
+	line-height: 1;
+	margin: 0 0 10px;
+}
+
+.header .slogan 
+{
+	font-size: 14px;
+}
+
+.widget-title
+{
+    border-bottom: 1px solid;
+}
+.post_title
+{
+    text-decoration: none;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.post_snippet
+{
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+a
+{
+    color: cadetblue;
+    text-decoration: none;
+}
+
+.post_author
+{
+    border-right: 1px solid lightgrey;
+}
+
+a:hover
+{
+    color: darkcyan;
+    text-decoration: none;
+}
+
+.latest_news_item
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.post_title_small
+{
+    width: 200px;
+    float: left;
+    text-align: left;
+}
+
+p.meta
+{
+    font-size: 12px;
+    padding-top: 16px;
+    text-align: left;
+    float: left;
+}
+
+.news_img
+{
+    vertical-align: middle;
+    float: right;
+}

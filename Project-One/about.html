@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project One</title>
+<meta charset="UTF-8" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="./css/main-styles.css">
+</head>
+<body>
+
+<!-- Nav Bar -->
+<div id="nav-bar" class="sidenav">
+  <div id=menu-header>
+    Menu
+  </div>
+  <a href="./">Home</a>
+  <a href="page-1.html">page One</a>
+  <a href="page-2.html">page Two</a>
+  <a href="page-3.html">page Three</a>
+  <a href="page-4.html">page Four</a>
+  <a href="https://github.com/arasharzi/">Github Projects</a>
+  <br>
+  <a href="about.html">About</a>
+</div>
+
+<!-- Header -->
+<header>
+  <div id="icon"><img style="cursor: pointer;" id="menu" src="images/menu_lightblue.png"></div>
+  <div id="text">
+    Project One - About
+  </div>
+</header>
+
+<!-- Content -->
+<div class="container">
+  <h1>About Me</h1>  
+  <p>
+    My name is Arash Arzi and I graduated from Kennesaw State University with a degree in 
+    Information Technology with a focus in Information Security. I enjoy programming, electronic design, 
+    and security related activities/topics. While I do not tend to find web development in general 
+    interesting, I do find it interesting in the realm of its capabilities for front end application 
+    design and development. 
+  </p>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  <!-- <div id="log"></div> -->
+  arash arzi
+</div>
+
+<!-- JQuery API -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Scripts -->
+<script>
+  var navOpen = false;
+  $(document).click(function( event ) 
+  {
+    if (event.target.id == "menu")
+    {
+      document.getElementById("nav-bar").style.width = "250px";
+      document.body.style.backgroundColor = "rgba(0,0,0,0.5)";
+      navOpen = true;
+    }
+    else if (navOpen)
+    {
+      document.getElementById("nav-bar").style.width = "0";
+      document.body.style.backgroundColor = "white";
+      navOpen = false;
+    }
+  });
+</script>
+</body>
+</html>
+
+

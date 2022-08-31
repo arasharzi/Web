@@ -1,0 +1,141 @@
+body 
+{
+  font-family: "Roboto", sans-serif;
+  transition: background-color .5s;
+  margin: 0px;
+}
+
+h1
+{
+  font-size: 32px;
+  margin-block-start: 10.72px;
+  margin-block-end: 10.72px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.sidenav 
+{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.15s;
+}
+
+.sidenav a
+{
+  font-size: 13px;
+  color: darkcyan;
+  text-decoration: none;
+  padding: 14px 8px 14px 40px;
+  display: block;
+  transition: 0.2s;
+}
+
+.sidenav a:hover, .offcanvas a:focus
+{
+  color: darkslategrey;
+}
+
+header 
+{
+	background-color: darkslategrey;
+	color:lightblue;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.26);
+  height: 64px;
+  font-size: 16px;
+}
+
+header #icon
+{
+  float: left;
+  padding-top: 18px;
+  padding-left: 20px;
+  padding-right: 14px;
+}
+
+header #text
+{
+  padding-top: 20px;
+}
+
+#menu-header
+{
+	background-color: darkslategrey;
+	color: lightblue ;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.26);
+  height: 50px;
+  font-size: 20px;
+  padding-left: 36px;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+
+.container
+{
+  color: darkslategrey;
+	text-align: center;
+  margin-top: 20px;
+  padding-bottom: 40px;
+}
+
+.container p
+{
+ font-size: 16px;
+ text-align: center;
+ width: 78%;
+ margin: 0 auto;
+}
+
+.footer
+{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 2px;
+  background-color: darkslategrey;
+  text-align: center;
+  color: lightblue;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.image img
+{
+  /*visibility: hidden;*/
+  margin-bottom: 1%;
+
+}
+
+.thumbnails img
+{
+  height: 200px;
+  width: 200px;
+  margin-bottom: 8px;
+  margin-right: 4px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.thumbnails img:hover
+{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.80);
+}
+
+.search-container
+{
+  height: 100px;
+  width: 330px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px dashed #ddd;
+  border-radius: 8px;
+}
