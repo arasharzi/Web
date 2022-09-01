@@ -22,29 +22,4 @@ function App() {
     </div> 
   );
 }
-
-    /*
-    <div className="App">
-      <div className="header">
-        <Header />
-      </div>
-
-      <section>
-        <div className="sidebar">
-          <Sidebar />
-        </div>
-
-        <div className="body">
-          <Body />
-        </div>
-      </section>
-
-      <div className="footer">
-        <Footer />
-      </div>
-    </div>
-    
-  );
-}   */
-
 export default App;
